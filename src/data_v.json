@@ -1,0 +1,2047 @@
+[
+  {
+    "domains": ["QLSV"],
+    "id": 5399567570829312,
+    "meaning": "Lưu thông tin Sinh viên khi nhập học",
+    "name": "Admission",
+    "permissions": [
+      {
+        "fieldName": "classPosition",
+        "fieldType": "int",
+        "meaning": "Vị trí từng nắm trong lớp THPT",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "provinceId",
+        "fieldType": "Long",
+        "meaning": "Tỉnh/ thành phố hộ khẩu thường trú",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "otherNoteKtx",
+        "fieldType": "String",
+        "meaning": "Ghi chú về KTX",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "scientificReѕearchs",
+        "fieldType": "List<String>",
+        "meaning": "Các nghiên cứu khoa học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "admitOrder",
+        "fieldType": "int",
+        "meaning": "Thứ tự nguyện vọng xét tuyển",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prevDegree",
+        "fieldType": "String",
+        "meaning": "SDH - Bằng tốt nghiệp sau đh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "docBirthCertificates",
+        "fieldType": "List<String>",
+        "meaning": "Tài liệu giấy khai sinh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "birthdateStr",
+        "fieldType": "String",
+        "meaning": "Ngày sinh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "idNumberPlace",
+        "fieldType": "String",
+        "meaning": "Nơi cấp CCCD",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "exam3Name",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "admissionName",
+        "fieldType": "String",
+        "meaning": "Tên ngành tuyển sinh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "fingerprintFees",
+        "fieldType": "double",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "docNumber",
+        "fieldType": "String",
+        "meaning": "Số quyết định nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "scholarship",
+        "fieldType": "int",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "contactAddress",
+        "fieldType": "String",
+        "meaning": "Địa chỉ liên hệ",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "highSchoolCode",
+        "fieldType": "String",
+        "meaning": "Mã trường THPT",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "otherCertificatNumberCredits",
+        "fieldType": "int",
+        "meaning": "SDH - Số tín chi đào tạo Chứng chỉ DHCK,CKCB",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prizeOrder",
+        "fieldType": "int",
+        "meaning": "Thứ hạng giải thưởng (nhất, nhì..)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "jobCertiDate",
+        "fieldType": "Long",
+        "meaning": "SDH - Ngày cấp chứng chỉ hành nghề",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "militaryTransferFromPlace",
+        "fieldType": "String",
+        "meaning": "Nơi chuyển nghĩa vụ",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "tmpStatus",
+        "fieldType": "int",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "partyPlace",
+        "fieldType": "Long",
+        "meaning": "Nơi vào Đảng",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "unionPlaceDetail",
+        "fieldType": "String",
+        "meaning": "Nơi vào Đoàn (chi tiết)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "personalEmail",
+        "fieldType": "String",
+        "meaning": "Email cá nhân",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "compProvinceId",
+        "fieldType": "Long",
+        "meaning": "VLVH - Tỉnh thành công tác",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "nearPoorNumber",
+        "fieldType": "String",
+        "meaning": "Số sổ nghèo, cận nghèo",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "assuranceNumber",
+        "fieldType": "String",
+        "meaning": "Số BHYT",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "homeCommune",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "awardNation",
+        "fieldType": "int",
+        "meaning": "Đạt giải thưởng trong nước hay nước ngoài",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "subjectTypeUrl",
+        "fieldType": "String",
+        "meaning": "SDH - Tài liệu loại học viên",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "exam3",
+        "fieldType": "double",
+        "meaning": "Điểm môn 3",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prevDegreeDate",
+        "fieldType": "Long",
+        "meaning": "SDH - thời gian tốt nghiệp sau đh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "langIssueNumber",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "officialPartyDate",
+        "fieldType": "Long",
+        "meaning": "Ngày vào Đảng chính thức",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "idNumberDate",
+        "fieldType": "Long",
+        "meaning": "Ngày cấp CCCD",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "majorCode",
+        "fieldType": "String",
+        "meaning": "Mã ngành đào tạo đh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "fullName",
+        "fieldType": "String",
+        "meaning": "Họ và tên Sinh viên",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "jobPosition",
+        "fieldType": "String",
+        "meaning": "SDH - Chức vụ công việc",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "joinUnion",
+        "fieldType": "int",
+        "meaning": "Có tham gia đoàn không? 1 - có, 0 - không",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "motherId",
+        "fieldType": "Long",
+        "meaning": "Thông tin mẹ",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "birthPlace",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "certificateEnglishUrl",
+        "fieldType": "String",
+        "meaning": "SDH - tài liệu chứng chỉ ngoại ngữ",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "enrollTime",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "healthInsuranceFees",
+        "fieldType": "double",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "highSchoolResult",
+        "fieldType": "int",
+        "meaning": "Học lực cấp 3",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "marryNotes",
+        "fieldType": "String",
+        "meaning": "Tình trạng hôn nhân",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "socialInsurance",
+        "fieldType": "String",
+        "meaning": "Số BHXH",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "unionCard",
+        "fieldType": "int",
+        "meaning": "Có thẻ Đoàn không",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "gender",
+        "fieldType": "int",
+        "meaning": "Giới tính",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "langScore",
+        "fieldType": "String",
+        "meaning": "Điểm chứng chỉ",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "conductRank10",
+        "fieldType": "int",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "accommodation",
+        "fieldType": "int",
+        "meaning": "Dự kiến nơi ở sau nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "communeId",
+        "fieldType": "Long",
+        "meaning": "Xã/ phường hộ khẩu thường trú",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "studyTimeAdministration",
+        "fieldType": "String",
+        "meaning": "VLVH - giờ đăng ký học ( hành chính, tự do)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "highSchoolGPA",
+        "fieldType": "double",
+        "meaning": "Điểm trung bình cấp 3",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "exam1",
+        "fieldType": "double",
+        "meaning": "Điểm môn 1",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prevMajor",
+        "fieldType": "String",
+        "meaning": "SDH - Ngành tốt nghiệp sau đh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "nationalityIds",
+        "fieldType": "List<Long>",
+        "meaning": "Quốc tịch",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "unionDateStr",
+        "fieldType": "String",
+        "meaning": "Ngày vào Đoàn",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "idNumber2Url",
+        "fieldType": "String",
+        "meaning": "Ảnh CCCD mặt sau",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "groupName",
+        "fieldType": "String",
+        "meaning": "Tổ SV/HV nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "majorId",
+        "fieldType": "Long",
+        "meaning": "Ngành đào tạo",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "tuitionNotes",
+        "fieldType": "String",
+        "meaning": "Ghi chú về học phí",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "class11Result",
+        "fieldType": "int",
+        "meaning": "Hạnh kiểm lớp 11",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "lastUpdate",
+        "fieldType": "long",
+        "meaning": "Thời gian cập nhật cuối",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "avatarUrl",
+        "fieldType": "String",
+        "meaning": "Ảnh avatar nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "decidedUrl",
+        "fieldType": "String",
+        "meaning": "SDH - tài liệu quyết định loại học viên cơ quan cử đi",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "enrollPlace",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "grade12GPA",
+        "fieldType": "double",
+        "meaning": "Điểm tổng kết lớp 12",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "jobCertiScope",
+        "fieldType": "String",
+        "meaning": "SDH - Phạm vi chứng chỉ hành nghề",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "paidNum",
+        "fieldType": "Integer",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "contactPerson",
+        "fieldType": "String",
+        "meaning": "Thông tin người liên hệ khi cần",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "isParty",
+        "fieldType": "int",
+        "meaning": "Có là Đảng viên không?",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "password2",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "language",
+        "fieldType": "String",
+        "meaning": "Các ngoại ngữ đã học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "highSchool",
+        "fieldType": "String",
+        "meaning": "Tên trường THPT",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "healths",
+        "fieldType": "List<Integer>",
+        "meaning": "Trạng thái sức khỏe",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "homeProvince",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "priorityObjects",
+        "fieldType": "List<Integer>",
+        "meaning": "Các đối tượng ưu tiên (xét KTX)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "otherCertificateMajor",
+        "fieldType": "String",
+        "meaning": "SDH - Ngành đào tạo Chứng chỉ DHCK,CKCB",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prizeName",
+        "fieldType": "String",
+        "meaning": "Tên giải thưởng từng đạt",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "jobCertiNumber",
+        "fieldType": "String",
+        "meaning": "SDH - số chứng chỉ hành nghề",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "militaryRegistryPlace",
+        "fieldType": "String",
+        "meaning": "Nơi đăng ký nghĩa vụ",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "createdDate",
+        "fieldType": "long",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "unionPlace",
+        "fieldType": "Long",
+        "meaning": "Nơi vào đoàn (tỉnh)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "confirmDate",
+        "fieldType": "long",
+        "meaning": "Ngày nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "phoneNumber",
+        "fieldType": "String",
+        "meaning": "Số điện thoại",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "companyUnit",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "familyNumber",
+        "fieldType": "int",
+        "meaning": "Số thành viên trong gia đình",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "motherNotes",
+        "fieldType": "String",
+        "meaning": "Ghi chú về mẹ (trường hợp không rõ)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "ethnicity",
+        "fieldType": "String",
+        "meaning": "Dân tộc",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "exam1Name",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "rootId",
+        "fieldType": "Long",
+        "meaning": "Đơn vị quản lý Sinh viên",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "libraryFees",
+        "fieldType": "double",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "docUrls",
+        "fieldType": "List<String>",
+        "meaning": "Tài liệu hồ sơ phiếu nhập học online",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "idNumberExprireDateStr",
+        "fieldType": "String",
+        "meaning": "Ngày hết hạn CCCD",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "admitNumber",
+        "fieldType": "String",
+        "meaning": "Số báo danh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "familyType",
+        "fieldType": "String",
+        "meaning": "Sinh viên thuộc hộ gđ ( nghèo, cận nghèo, ...)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "docHighSchoolProfiles",
+        "fieldType": "List<String>",
+        "meaning": "Tài liệu học bạ Trung học phổ thông",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "status",
+        "fieldType": "int",
+        "meaning": "Trạng thái nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "langIssued",
+        "fieldType": "String",
+        "meaning": "Số quyết định cấp chứng chỉ",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "conductRank12",
+        "fieldType": "int",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "unionJoin",
+        "fieldType": "int",
+        "meaning": "Có là đoàn viên không? 1-có 0-không",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "districtId",
+        "fieldType": "Long",
+        "meaning": "Huyện/ quận hộ khẩu thường trú",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "currentAddress",
+        "fieldType": "String",
+        "meaning": "Địa chỉ hiện nay",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prevDegreeYear",
+        "fieldType": "int",
+        "meaning": "Năm tốt nghiệp SĐH",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "examResult",
+        "fieldType": "double",
+        "meaning": "Điểm thi Trung học phổ thông quốc gia",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prevDegreeRank",
+        "fieldType": "Integer",
+        "meaning": "SDH - xếp loại tốt nghiệp sau đh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "currentAddressInfo",
+        "fieldType": "AddressInfo",
+        "meaning": "Địa chỉ hiện nay",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "idNumberDateStr",
+        "fieldType": "String",
+        "meaning": "Ngày cấp CCCD",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "idNumberUrl",
+        "fieldType": "String",
+        "meaning": "Ảnh CCCD mặt trước",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "classId",
+        "fieldType": "Long",
+        "meaning": "Lớp SV/HV nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "programId",
+        "fieldType": "Long",
+        "meaning": "Chương trình đào tạo",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "healthCheckFees",
+        "fieldType": "double",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "class10Result",
+        "fieldType": "int",
+        "meaning": "Hạnh kiểm lớp 10",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "admissionYear",
+        "fieldType": "int",
+        "meaning": "Năm nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "idNumber",
+        "fieldType": "String",
+        "meaning": "Số CCCD/ passport",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "highSchoolProvinceCode",
+        "fieldType": "String",
+        "meaning": "Mã tỉnh trường THPT",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "checkList",
+        "fieldType": "List<Integer>",
+        "meaning": "Các check list hồ sơ nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prizeYear",
+        "fieldType": "int",
+        "meaning": "Năm đạt giải thưởng",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "jobCertiPlace",
+        "fieldType": "String",
+        "meaning": "SDH - Nơi cấp chứng chỉ hành nghề",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "highSchoolGradYear",
+        "fieldType": "int",
+        "meaning": "SDH - Năm tốt nghiệp đại học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "homeCountry",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "isUnion",
+        "fieldType": "int",
+        "meaning": "Có là Đoàn viên không",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "password",
+        "fieldType": "String",
+        "meaning": "Mật khẩu đăng nhập cổng nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "taxNumber",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "specialFamilyNotes",
+        "fieldType": "String",
+        "meaning": "Ghi chú về hoàn cảnh gia đình",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "assuranceUrl",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "homeDistrict",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "noteAwardNation",
+        "fieldType": "String",
+        "meaning": "Ghi chú về giải thưởng",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "otherCertificatePlace",
+        "fieldType": "String",
+        "meaning": "SDH - Cơ sở đào tạo Chứng chỉ DHCK,CKCB",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "english",
+        "fieldType": "double",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prevDegreePlace",
+        "fieldType": "String",
+        "meaning": "SDH - trường tốt nghiệp sau đh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "militaryRegistryNumber",
+        "fieldType": "String",
+        "meaning": "Số giấy đăng ký nghĩa vụ",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "officialPartyDateStr",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "unionDate",
+        "fieldType": "Long",
+        "meaning": "Ngày vào đoàn",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "preMajor",
+        "fieldType": "String",
+        "meaning": "Mã ngành đào tạo sđh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "birthdate",
+        "fieldType": "long",
+        "meaning": "Ngày sinh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "companyName",
+        "fieldType": "String",
+        "meaning": "VLVH - Cơ quan công tác",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "gifted",
+        "fieldType": "int",
+        "meaning": "Năng khiếu của Sinh viên nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "fatherNotes",
+        "fieldType": "String",
+        "meaning": "Ghi chú về bố (trường hợp không rõ)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "nationalityId",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "levelcertificateEnglish",
+        "fieldType": "String",
+        "meaning": "SDH - chứng chỉ ngoại ngữ bậc",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "passEmail",
+        "fieldType": "String",
+        "meaning": "Mật khẩu email office 365",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "bodyInsuranceFees",
+        "fieldType": "double",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "bonusScore",
+        "fieldType": "double",
+        "meaning": "Điểm ưu tiên",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "id",
+        "fieldType": "Object",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "notes",
+        "fieldType": "String",
+        "meaning": "Ghi chú về trạng thái phiếu nhập học online",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "policyType",
+        "fieldType": "String",
+        "meaning": "Sinh viên thuộc đối tượng (chính sách,...)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "partyPlaceDetail",
+        "fieldType": "String",
+        "meaning": "Nơi vào Đảng (chi tiết)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "lastLoggedIn",
+        "fieldType": "long",
+        "meaning": "Thời gian login lần cuối",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "langDate",
+        "fieldType": "Long",
+        "meaning": "Ngày cấp chứng chỉ",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "conductRank11",
+        "fieldType": "int",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "highestActivityAward",
+        "fieldType": "String",
+        "meaning": "Mô tả các hoạt động của bản thân (quá trình công tác)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "countryName",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "staffId",
+        "fieldType": "String",
+        "meaning": "Cán bộ tiếp nhận nhập học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "subjectType",
+        "fieldType": "int",
+        "meaning": "SDH - Loại học viên ( HV tự do, HV được cơ quan cử đi học)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "exam2",
+        "fieldType": "double",
+        "meaning": "Điểm môn 2",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "schoolMajor",
+        "fieldType": "String",
+        "meaning": "SDH - Ngành tốt nghiệp đh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "checkListNotes",
+        "fieldType": "String",
+        "meaning": "Ghi chú về hồ sơ checklist",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "partyDateStr",
+        "fieldType": "String",
+        "meaning": "Ngày vào Đảng",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "idNumberExprireDate",
+        "fieldType": "Long",
+        "meaning": "Ngày hết hạn CCCD",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "className",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "studentId",
+        "fieldType": "String",
+        "meaning": "Mã sinh viên/ học viên",
+        "modelId": 5399567570829312,
+        "refField": "id",
+        "refTable": "Student",
+        "refType": "One-To-One",
+        "status": 1
+      },
+      {
+        "fieldName": "jobName",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "class12Result",
+        "fieldType": "int",
+        "meaning": "Hạnh kiểm lớp 12",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "fatherId",
+        "fieldType": "Long",
+        "meaning": "Thông tin bố",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "birthProvince",
+        "fieldType": "Long",
+        "meaning": "Nơi sinh (tỉnh)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "commitUrl",
+        "fieldType": "String",
+        "meaning": "SDH - tài liệu quyết định loại học viên tự do",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "programType",
+        "fieldType": "Integer",
+        "meaning": "Hệ đào tạo",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "tuitionFees",
+        "fieldType": "double",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "jobCertiConfirmDate",
+        "fieldType": "Long",
+        "meaning": "SDH - Thâm niên công tác trong chuyên ngành",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "collegeName",
+        "fieldType": "String",
+        "meaning": "VLVH - Tên trường cao đẳng đã tốt nghiệp",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "contactRelation",
+        "fieldType": "String",
+        "meaning": "Mối quan hệ của người liên hệ khi cần",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "unionBook",
+        "fieldType": "int",
+        "meaning": "Có sổ Đoàn không",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "healthUrl",
+        "fieldType": "String",
+        "meaning": "File tài liêu, giấy khám sức khỏe...",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "langDegree",
+        "fieldType": "String",
+        "meaning": "Chứng chỉ ngoại ngữ cao nhất hiện có",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "highestStudyAward",
+        "fieldType": "String",
+        "meaning": "Thành tích cao nhất ở THPT",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "annexFamilyUrl",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "homeAddress",
+        "fieldType": "String",
+        "meaning": "Xóm, số nhà .... hộ khẩu thường trú",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "statusAccommodationKTX",
+        "fieldType": "int",
+        "meaning": "Trạng thái phê duyệt nguyện vọng KTX",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "otherCertificateTime",
+        "fieldType": "String",
+        "meaning": "SDH - Thời gian đào tạo Chứng chỉ DHCK,CKCB",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prizeLevel",
+        "fieldType": "int",
+        "meaning": "Giải thưởng cấp (quốc tế, quốc gia, thành phố..)",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "jobCertiCode",
+        "fieldType": "String",
+        "meaning": "SDH - mã số chứng chỉ hành nghề",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "militaryTransferFromNumber",
+        "fieldType": "String",
+        "meaning": "Số giấy chuyển nghĩa vụ",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "talentProgram",
+        "fieldType": "int",
+        "meaning": "Có thuộc chương trình tài năng không",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "partyDate",
+        "fieldType": "Long",
+        "meaning": "Ngày vào Đảng",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prevDegreeGPA",
+        "fieldType": "double",
+        "meaning": "VLVH - điểm trung bình bằng cao đẳng",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "email",
+        "fieldType": "String",
+        "meaning": "Email trường cấp",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "compAddress",
+        "fieldType": "String",
+        "meaning": "VLVH - Địa chỉ cơ quan công tác",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "studyFamilyNumber",
+        "fieldType": "int",
+        "meaning": "Số thành viên trong gia đình đang còn đi học",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "selectionType",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "religion",
+        "fieldType": "String",
+        "meaning": "Tôn giáo",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "exam2Name",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "admissionCode",
+        "fieldType": "String",
+        "meaning": "Mã ngành tuyển sinh",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "elearningFees",
+        "fieldType": "double",
+        "meaning": "",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "kv",
+        "fieldType": "String",
+        "meaning": "Khu vực ưu tiên",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "prevDegreeFacilities",
+        "fieldType": "String",
+        "meaning": "Cơ sở đào tạo SĐH",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "combineCode",
+        "fieldType": "String",
+        "meaning": "Mã tổ hợp xét tuyển",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "admissionType",
+        "fieldType": "int",
+        "meaning": "Phương thức xét tuyển",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "docHighSchoolCertificates",
+        "fieldType": "List<String>",
+        "meaning": "Tài liệu bằng, giấy chưng nhận tốt nghiệp THPT",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "countryId",
+        "fieldType": "Long",
+        "meaning": "Quốc gia hộ khẩu thường trú",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "typeWishKtx",
+        "fieldType": "int",
+        "meaning": "Nguyện vọng KTX",
+        "modelId": 5399567570829312,
+        "status": 1
+      },
+      {
+        "fieldName": "unionPosition",
+        "fieldType": "int",
+        "meaning": "Vị trí trong Đoàn",
+        "modelId": 5399567570829312,
+        "status": 1
+      }
+    ],
+    "status": 1
+  },
+  {
+    "domains": ["QLSV"],
+    "id": 5073650621349888,
+    "meaning": "Thông tin của SV",
+    "name": "Student",
+    "permissions": [
+      {
+        "fieldName": "programDetailId",
+        "fieldType": "long",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "className",
+        "fieldType": "String",
+        "meaning": "Tên lớp hành chính của sinh viên",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "tpa",
+        "fieldType": "double",
+        "meaning": "Điểm rèn luyện học kỳ hiện tại",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "relatedEmail",
+        "fieldType": "String",
+        "meaning": "Email tài khoản liên kết: fb, gmail...",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "source",
+        "fieldType": "int",
+        "meaning": "Nguồn dữ liệu vào: import, nhập học, đăng ký....",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "contactAddress",
+        "fieldType": "String",
+        "meaning": "Địa chỉ thông tin liên hệ cụ thể (xóm, đường...)",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "majorId",
+        "fieldType": "long",
+        "meaning": "ID ngành đào tạo trong database",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "createdDate",
+        "fieldType": "long",
+        "meaning": "Ngày tạo dữ liệu",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "nationId",
+        "fieldType": "Long",
+        "meaning": "Quốc gia",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "admissionYear",
+        "fieldType": "int",
+        "meaning": "Năm nhập học",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "districtId",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "officialPartyDate",
+        "fieldType": "Long",
+        "meaning": "Ngày vào đảng chính thức",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "gender",
+        "fieldType": "int",
+        "meaning": "Giới tính: 0-nữ  1-nam",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "lastUpdate",
+        "fieldType": "long",
+        "meaning": "Cập nhật gần nhất",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "tmpState",
+        "fieldType": "Integer",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "programCode",
+        "fieldType": "String",
+        "meaning": "Mã chương trình đào tạo",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "familyPolicyId",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "homeProvince",
+        "fieldType": "String",
+        "meaning": "Tỉnh, thành phố",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "contactCommuneId",
+        "fieldType": "Long",
+        "meaning": "Id Phường xã để liên hệ",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "majorName",
+        "fieldType": "String",
+        "meaning": "Tên ngành đào tạo",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "phoneNumber",
+        "fieldType": "String",
+        "meaning": "Số điện thoại",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "oldRootId",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "partyUnitName",
+        "fieldType": "String",
+        "meaning": "Tên đơn vị đảng",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "position",
+        "fieldType": "String",
+        "meaning": "Chức vụ trong lớp hành chính",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "graduationDate",
+        "fieldType": "long",
+        "meaning": "Ngày tốt nghiệp",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "avatarUrl",
+        "fieldType": "String",
+        "meaning": "Link avatar của sinh viên",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "startSemester",
+        "fieldType": "String",
+        "meaning": "Học kỳ bắt đầu",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "receptInfo",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "homeCommune",
+        "fieldType": "String",
+        "meaning": "Xã, phường",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "contactProvinceId",
+        "fieldType": "Long",
+        "meaning": "Id Tỉnh thành phố để liên hệ",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "originNationId",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "programId",
+        "fieldType": "long",
+        "meaning": "ID chương trình đào tạo Ref Kind: EduProgram",
+        "modelId": 5073650621349888,
+        "refField": "id",
+        "status": 1
+      },
+      {
+        "fieldName": "lastSemester",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "admissionType",
+        "fieldType": "int",
+        "meaning": "Loại xét tuyển ở thông tin nhập học",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "year",
+        "fieldType": "int",
+        "meaning": "Năm theo học của SV",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "studyMode",
+        "fieldType": "int",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "studentId",
+        "fieldType": "String",
+        "meaning": "Mã sinh viên (định danh trong trường)",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "classOrder",
+        "fieldType": "int",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "facebookToken",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "contactDistrict",
+        "fieldType": "String",
+        "meaning": "Quận huyện trong thông tin liên hệ",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "scholarShip",
+        "fieldType": "String",
+        "meaning": "Thông tin học bổng",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "personalEmail",
+        "fieldType": "String",
+        "meaning": "Email cá nhân",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "eduProgramId",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "partyUnitId",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "companyName",
+        "fieldType": "String",
+        "meaning": "Tên cơ quan đối với học viên Vừa làm vừa học",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "tpa2s",
+        "fieldType": "double",
+        "meaning": "Điểm rèn luyện trung bình 2 kỳ",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "facebookName",
+        "fieldType": "String",
+        "meaning": "Tên Facebook",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "id",
+        "fieldType": "Long",
+        "meaning": "Mã ID lưu trong Database",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "contactPhone",
+        "fieldType": "String",
+        "meaning": "Số điện thoại liện hệ (người thân,..)",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "tokenKey",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "contactPerson",
+        "fieldType": "String",
+        "meaning": "Thông tin liên hệ người thân",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "nationality",
+        "fieldType": "String",
+        "meaning": "Quốc tịch",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "departmentId",
+        "fieldType": "long",
+        "meaning": "Đơn vị cấp 3 của sinh viên",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "communeId",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "cvUrl",
+        "fieldType": "String",
+        "meaning": "Link CV, tài liệu cá nhân",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "uniId",
+        "fieldType": "Long",
+        "meaning": "Mã đơn vị cấp 1",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "tmpValue",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "vaccinated",
+        "fieldType": "Integer",
+        "meaning": "Số mũi vaccinate đã tiêm",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "classId",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "homeAddress",
+        "fieldType": "String",
+        "meaning": "Hộ khẩu thường trú",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "contactCommune",
+        "fieldType": "String",
+        "meaning": "Phường xã trong thông tin liên hệ",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "majorCode",
+        "fieldType": "String",
+        "meaning": "Mã ngành đào tạo",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "email",
+        "fieldType": "String",
+        "meaning": "Email trường cấp",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "groupName",
+        "fieldType": "String",
+        "meaning": "Tên tổ/nhóm trong lớp",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "partyDate",
+        "fieldType": "Long",
+        "meaning": "Ngày vào đảng",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "notes",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "profileUrl",
+        "fieldType": "String",
+        "meaning": "Link FB",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "rootId",
+        "fieldType": "Long",
+        "meaning": "Mã đơn vị",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "endSemester",
+        "fieldType": "String",
+        "meaning": "Học kỳ hết thúc",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "docUrls",
+        "fieldType": "List<String>",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "homeDistrict",
+        "fieldType": "String",
+        "meaning": "Quận, huyện",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "contactDistrictId",
+        "fieldType": "Long",
+        "meaning": "Id Quận huyện để liên hệ",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "originNation",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "studentYear",
+        "fieldType": "String",
+        "meaning": "Năm bắt đầu học (khác năm nhập học)",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "semesters",
+        "fieldType": "List<String>",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "admissionCode",
+        "fieldType": "String",
+        "meaning": "Mã ngành xét tuyển",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "ethnicity",
+        "fieldType": "String",
+        "meaning": "Dân tộc",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "studentType",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "fullName",
+        "fieldType": "String",
+        "meaning": "Họ và tên sinh viên",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "provinceId",
+        "fieldType": "Long",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "facebookId",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "contactProvince",
+        "fieldType": "String",
+        "meaning": "Tỉnh, thành phố trong thông tin liên hệ",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "ctpa",
+        "fieldType": "double",
+        "meaning": "Điểm rèn luyện trung bình tích lũy",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "schoolName",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      },
+      {
+        "fieldName": "eduProgramName",
+        "fieldType": "String",
+        "meaning": "",
+        "modelId": 5073650621349888,
+        "status": 1
+      }
+    ],
+    "status": 1
+  }
+]
