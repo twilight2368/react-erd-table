@@ -1,9 +1,10 @@
 export type ModelType = {
-  domain: string[];
   id: number;
   name: string;
+  meaning: string;
+  domains: string[];
+  status: number;
   permissions: Permission[];
-  status: 0 | 1;
 };
 
 export type Permission = {
@@ -11,5 +12,8 @@ export type Permission = {
   fieldType: string;
   meaning: string;
   modelId: number;
-  status: 0 | 1;
+  status: number; 
+  refField?: string;
+  refTable?: string;
+  refType?: string;
 };

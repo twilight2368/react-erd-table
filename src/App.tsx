@@ -4,12 +4,12 @@ import { RelationshipDiagram } from "react-erd";
 import "react-erd/dist/style.css";
 import dataJSON from "./data_v.json";
 import { mapper } from "./utils";
-import type { ModelType } from "./types/model";
+import type { SchemaType } from "./types/schema";
 function App() {
-  const [data, setData] = useState<ModelType[]>(dataJSON);
-  const [schema, setSchema] = useState();
+  const [schema, setSchema] = useState<SchemaType[]>();
 
   useEffect(() => {
+    const data = dataJSON;
     setSchema(mapper(data));
   }, []);
 
