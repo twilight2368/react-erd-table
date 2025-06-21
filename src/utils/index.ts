@@ -25,24 +25,27 @@ function mapToSimpleType(
   return "other";
 }
 
-export function mapper(
-  models: ModelType[] | undefined
-): SchemaType[] | undefined {
-  if (!models) {
-    return undefined;
-  }
-  return [
-    {
-      name: "default_schema", // Default schema name
-      tables: models.map((model) => ({
-        name: model.name,
-        primaryKey: "id", // Assumed default
-        columns: model.permissions.map((permission) => ({
-          name: permission.fieldName,
-          type: mapToSimpleType(permission.fieldType),
-          foreignKeys: [],
-        })),
+export function mapper(models: ModelType[]): SchemaType {
+  return {
+    name: "default_schema",
+    tables: models.map((model) => ({
+      name: model.name,
+      primaryKey: "id", // Defaulting to 'id' unless there's logic to determine otherwise
+      columns: model.permissions.map((permission) => ({
+        name: permission.fieldName,
+        type: mapToSimpleType(permission.fieldType),
+        foreignKeys:
+          permission.refField && permission.refTable
+            ? [
+                {
+                  foreignSchemaName: "default_schema",
+                  foreignTableName: permission.refTable,
+                  foreignColumnName: permission.refField,
+                  constrained: true,
+                },
+              ]
+            : [],
       })),
-    },
-  ];
+    })),
+  };
 }
